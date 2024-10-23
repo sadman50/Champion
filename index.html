@@ -5,24 +5,281 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Champion</title>
     <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="inter-font">
-    <header>
-        <nav class="navbar dispaly-flex">
-            <h2 class="logo">Champion</h2>
-            <ul class="nav-links dispaly-flex">
-                <li class="nav-item" id="home"><a href="" class="nav-link text-white">Home</a></li>
-                <li class="nav-item"><a href="" class="nav-link text-white">Service</a></li>
-                <li class="nav-item"><a href="" class="nav-link text-white">Contact</a></li>
-                <li class="nav-item"><a href="" class="nav-link text-white">About</a></li>
+<body>
+
+     <!-- header section start here -->
+     <header>
+        <nav>
+            <h3>CHAMPION</h3>
+            <div class="menu-bar">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <ul>
+                <li><a class="home" href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">Contact</a></li>
             </ul>
         </nav>
+
+        <div class="banner">
+            <div class="text-section">
+                <h3>Get body in <br> <span>Shape</span> & stay <br> healthy</h3>
+                <p class="text-content" id="banner-text">A huge selection of health and fitness content,<br> healthy recipes and transformation stories to help you <br> get fit and stay fit!</p>
+                <div class="button">
+                    <button class="btn">Join Club Now!</button>
+                    <button class="btn">Download App</button>
+                </div>
+            </div>
+            <div class="img-section">
+                <img src="images/Images 2.png" alt="">
+                <div class="banner-box1">
+                    <h1>500+</h1>
+                    <p>Free Workout Video</p>
+                </div>
+                <div class="banner-box2">
+                    <div class="video-play">
+                        <i class="fa-solid fa-play"></i>
+
+                    </div>
+                    <div>
+                        <h1>350+</h1>
+                        <p>Video Tutorial</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
+
+    <!-- main section start here -->
     <main>
 
+<!-- habit section-1 -->
+
+<section class="section-1">
+    <h1 class="text-heading">Change Your Habits</h1>
+    <p class="text-content">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+
+    <div class="img-box">
+        <div>
+            <img src="images/image 2.png" alt="">
+            <h2>Movement</h2>
+            <p>It also uses energy which burns <br> calories, making it easier <br> to manage weight.</p>
+        </div>
+        <div>
+            <img src="images/image 3.png" alt="">
+            <h2>Time</h2>
+            <p>Timing your exercise also means <br> sticking with a schedule.</p>
+        </div>
+        <div>
+            <img src="images/image 4.png" alt="">
+            <h2>Practice</h2>
+            <p>Exercise can help prevent excess <br> weight gain or help you keep <br> off lost weight.</p>
+        </div>
+        <div>
+            <img src="images/image 5.png" alt="">
+            <h2>Weight Loss</h2>
+            <p>Exercise is helpful for weight loss <br> and maintaining weight loss.</p>
+        </div>
+
+    </div>
+</section>
+
+
+        <!-- Run section-2 -->
+        <section class="section-2">
+            <div>
+                <h1 class="text-heading">Run an Extra <br> Mile Easily</h1>
+                <p class="text-content">If you say that someone is willing to go the extra mile, <br> you mean that they are willing to make a special <br> effort to do or achieve something.
+                </p>
+                <button class="btn">Join Now</button>
+            </div>
+
+            <div class="run">
+                <img src="images/run.jpg" alt="">
+            </div>
+        </section>
+
+
+
+        <!-- BMI section-3 -->
+        <section class="section-3">
+            <h1 class="text-heading">BMI Calculator</h1>
+            <p class="text-content">Free Body Mass Index calculator gives out the BMI value and categorizes BMI <br> based on provided information from WHO and CDC for both adults and children's.</p>
+
+            <div class="box">
+                <div class="table-box">
+                    <h1 class="text-heading">BMI Calculator Chart</h1>
+                    <table>
+                        <tr>
+                            <th>BMI</th>
+                            <th>Weight Status</th>
+                        </tr>
+
+                        <tr>
+                            <td>Below 18.5</td>
+                            <td>Healthy</td>
+                        </tr>
+
+                        <tr>
+                            <td>25.0 - 29.9</td>
+                            <td>Overweight</td>
+                        </tr>
+
+                        <tr>
+                            <td>18.5 - 24.9</td>
+                            <td>Underweight</td>
+                        </tr>
+
+                        <tr>
+                            <td>30.0 - and Above</td>
+                            <td>Obese</td>
+                        </tr>
+                    </table>
+                </div>
+
+
+                <div class="form-box">
+                    <h1 class="text-heading">Calculate your BMI</h1>
+                    <p class="text-content">The BMI is calculated by dividing an adult's weight in kilograms <br> by their height in metres squared. </p>
+                    <form action="">
+                        <div class="input-box">
+                            <input type="text" placeholder="Height/cm">
+                            <input type="text" placeholder="Weight/kg">
+                            <input type="text" placeholder="Age">
+                            <input type="text" placeholder="Sex">
+                        </div>
+                        <input id="input" type="text" placeholder="Select an activity factor">
+
+                    </form>
+
+                    <button class="btn">Calculate</button>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Meet section-4 -->
+        <section class="section-4">
+            <h1 class="text-heading">Meet Our Team</h1>
+            <p class="text-content">Meet our team of dedicated professionals helping you get the most out of Bolton Arena's Gym facilities.</p>
+
+            <div class="trainer-img">
+                <div class="trainer">
+                    <img src="images/trainer1.png" alt="">
+                    <div>
+                        <h2>Mr. Sadman</h2>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="trainer">
+                    <img src="images/trainer2.png" alt="">
+                    <div>
+                        <h2>Mr. Adil</h2>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="trainer">
+                    <img src="images/trainer3.png" alt="">
+                    <div>
+                        <h2>Mr. Ahnaaf</h2>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="trainer">
+                    <img src="images/trainer4.png" alt="">
+                    <div>
+                        <h2>Mr. Abdullah</h2>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="trainer">
+                    <img src="images/trainer5.png" alt="">
+                    <div>
+                        <h2>Mr. Erham</h2>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="trainer">
+                    <img src="images/trainer6.png" alt="">
+                    <div>
+                        <h2>Mr. Sarwar</h2>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- fitness training section-5 -->
+        <section class="section-5">
+            <h1 class="text-heading">why we are the best fitness training center</h1>
+            <p class="text-content">We provide in our gym to be well balanced with a good variety of different equipment types,<br> machines, accessories, and training opportunities.</p>
+
+            <div class="card-box">
+                <div class="card">
+                    <img src="images/34093336_m2.jpg" alt="">
+                    <h3>GYM Consultation</h3>
+                    <p class="text-content">A new membership with Anytime Fitness includes a free fitness consultation to get you started on the right foot.
+                    </p>
+
+                    <button>Learn More</button>
+                </div>
+                <div class="card">
+                    <img src="images/10-13-1024x768.jpg" alt="">
+                    <h3>Group Workout</h3>
+                    <p class="text-content">Workouts using the energy of a small group or team of people around you and the expertise of the coach to maximize your results.</p>
+
+                    <button>Learn More</button>
+                </div>
+                <div class="card">
+                    <img src="images/istockphoto-1430943421-612x612.jpg" alt="">
+                    <h3>Separate Training</h3>
+                    <p class="text-content">A split training routine that divides weekly workouts to focus on different areas of your body on alternate days is one way to meet your goals.</p>
+
+                    <button>Learn More</button>
+                </div>
+
+            </div>
+        </section>
+   
     </main>
     <footer>
+        <!-- footer section start here -->
+        <div class="footer-content">
+            <div>
+                <h1 id="icon">CHAMPION</h1>
+                <p>Come relax and recharge your mind, body, spirit while building your strength, improving your balance, and increasing your flexibility.</p>
+            </div>
 
+            <div>
+                <h3>Get Started</h3>
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">service</a>
+                <a href="">Contact</a>
+
+            </div>
+            <div>
+                <h3>Get Started</h3>
+                <a href="">fitness</a>
+                <a href="">platform</a>
+                <a href="">workout</a>
+                <a href="">App design</a>
+
+            </div>
+        </div>
+
+        <hr>
+
+        <p class="footer-text">All right reserved &copy;Champion 2024.</p>
     </footer>
 </body>
 </html>
